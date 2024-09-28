@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Рандомайзер для розыгрышей</title>
+</head>
+<body>
+    <div class="randomizer">
+        <span class="show-number">Random</span>
+
+        <form class="form" action="#">
+            <label area-label="Минимальное число">
+                <input class="field field-min" type="number" min="1" max="999" step="1" value="1">
+            </label>
+            <label area-label="Максимальное число">
+                <input class="field field-max" type="number" min="2" max="999" step="1" value="100">
+            </label>
+
+            <button class="random-button" type="submit">Генерировать</button>
+        </form>
+    </div>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
