@@ -24,6 +24,6 @@ form.addEventListener('submit', () => {
 
     setTimeout(() => {
         updateNumberShow();
-    }, 5000);
+    }, 100);
 })
 
